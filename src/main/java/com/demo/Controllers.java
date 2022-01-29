@@ -10,6 +10,6 @@ public class Controllers {
 	@GetMapping("/")
 	public String getCustomer()
 	{
-		return "data is visible";
+		return "data is visible and changes";
 	}
 }
